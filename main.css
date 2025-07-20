@@ -22,9 +22,9 @@ margin: 200px;
 
 #memeImage{margin-right: 200px;
 width: 400px;
-/* shift img */
+/* shift img from left */
 margin-left: 245px;
-/* needs to be further up */
+/* needs to be further up so i set to -500 */
 margin-top: -500px;
 }
 
