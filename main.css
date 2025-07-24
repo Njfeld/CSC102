@@ -15,7 +15,11 @@ box-shadow: 3px 3px 10px rgba(0, 0,0,0.4);
 border-radius: 8px;
 
 }
-
+.game-intro {
+    text-align: center;
+    margin: 50px auto; /* This will center the block and add space */
+    width: 60%; /* You can adjust this width to your preference */
+}
 footer{text-align: center;
 margin: 200px;
 }
