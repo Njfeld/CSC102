@@ -22,26 +22,33 @@
     <!-- display msssg -->
      <div id="divMessage"></div>
 
- <form method="post" onsubmit="return validateForm();">
-    <!-- ToDo debug Uncaught ReferenceError ReferenceError: validateForm is not defined
-    at onsubmit (e:\school\csc102\CSC102\strings.html:22:56) -->
-
-    <!-- sets the lable to first name and calls on the user input   -->
+<form method="post" onsubmit="return validateForm();">
     <label for="txtFirstName"> First Name:</label>
     <input type="text" id="txtFirstName" name="txtFirstName">
     <br>
-    <label for="txtLasttName"> Last Name:</label>
+
+    <label for="txtLastName"> Last Name:</label>
     <input type="text" id="txtLastName" name="txtLastName">
     <br>
-    <label for="txtzip"> Zip Code:</label>
-    <input type="text" id="txtzip" name="textzip">
-    <br>
-    <input type="submit" value="submit form">
 
+    <label for="txtzip"> Zip Code:</label>
+    <input type="text" id="txtzip" name="txtzip">
+    <br>
+
+    <input type="submit" value="submit form">
 </form>
+
 </main>
 
-
+<nav>
+    <ul>
+        <li><a href="index.html">link to index</a></li>
+        <li><a href="boards.html">boards</a></li>
+        <li><a href="game.html">game</a></li>
+        <li><a href="Thankyou.html">Thanks</a></li>
+        <li><a href="strings.html">strings</a></li>
+    </ul>
+</nav>
 
 </body>
 </html>
