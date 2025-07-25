@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title> <br> 
+    <!-- name of the title  -->
+
+</head>
+<!-- debug had to add <script> src="strings.js"></script> -->
+<script src="strings.js"></script>
+
+<body>
+    <!-- <link rel="stylesheet href="main.css"" sets the style -->
+    <link rel="stylesheet" href="main.css">
+
+<!-- Add header with menue  -->
+
+<main>
+
+    <h2>Pleas log in for a message!</h2>
+    <!-- display msssg -->
+     <div id="divMessage"></div>
+
+ <form method="post" onsubmit="return validateForm();">
+    <!-- ToDo debug Uncaught ReferenceError ReferenceError: validateForm is not defined
+    at onsubmit (e:\school\csc102\CSC102\strings.html:22:56) -->
+
+    <!-- sets the lable to first name and calls on the user input   -->
+    <label for="txtFirstName"> First Name:</label>
+    <input type="text" id="txtFirstName" name="txtFirstName">
+    <br>
+    <label for="txtLasttName"> Last Name:</label>
+    <input type="text" id="txtLastName" name="txtLastName">
+    <br>
+    <label for="txtzip"> Zip Code:</label>
+    <input type="text" id="txtzip" name="textzip">
+    <br>
+    <input type="submit" value="submit form">
+
+</form>
+</main>
+
+
+
+</body>
+</html>
