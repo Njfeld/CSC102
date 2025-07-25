@@ -16,13 +16,18 @@ function rollDice() {
 
     // Sets the initial text to display the result of the die roll
     outputDiv.innerHTML = "You rolled a " + dieRoll + ".<br>";
-
+// break it here for class change the math :-( fix it with if (dieRoll % 2 === 0) 
     // Checks if the die roll is an even number
+// add brake 
+
+// fixed 
     if (dieRoll % 2 === 0) {
         // output indicating the roll was even
-        outputDiv.innerHTML += "That's an even number!";
+        outputDiv.innerHTML += "That's an even number!" ;
     } else {
         // output indicating the roll was odd
+        // break it here take out the plus +
+        // fixed
         outputDiv.innerHTML += "That's an odd number!";
     }
 }
