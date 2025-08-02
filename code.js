@@ -31,3 +31,41 @@ function rollDice() {
         outputDiv.innerHTML += "That's an odd number!";
     }
 }
+        // <img id="memeImage" src="duck meme.png" alt="meme memeImage">
+// keep track of interval ID for moving the duck
+        let intervalID =0;
+// start the duck moving
+
+
+// random number 
+function randomNum(){
+
+    return Math.floor (Math.random() * 850);
+}
+
+        function startMove(){
+            // make shotcut
+            let duckMeme = document.getElementById("memeImage");
+            // new duck position
+        intervalID =  setInterval (function (){ 
+                let newTop = randomNum(); 
+                let newLeft = randomNum();
+               //  change the position of the duck
+               duckMeme.style.left= newLeft + "px";
+               duckMeme.style.top = newTop + "px";
+               console.log("left="+ newLeft +"px");
+               console.log("top="+ newTop +"px");
+
+        }, 1000); // move every second
+
+        document.getElementById("btnStart").disabled = true;
+        document.getElementById("btnStop").disabled = false;
+        // alternates stop start disable 
+        }
+        // stop duck move 
+        function stopMove(){
+            clearInterval(intervalID);
+        document.getElementById("btnStart").disabled = false ;
+        document.getElementById("btnStop").disabled = true;
+// swaps the start and stop disable 
+        }
