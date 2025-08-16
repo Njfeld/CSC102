@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">link to index</a></li>
+            <li><a href="boards.html">boards</a></li>
+            <li><a href="game.html">game</a></li>
+            <li><a href="Thankyou.html">Thanks</a></li>
+            <li><a href="strings.html">strings</a></li>
+            <li><a href="palindromes.html">palindromes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Palindrome Checker</h1>
+        <!-- palindrome form  -->
+        <form name="palindromeForm" id="frmPalindrome" onsubmit="checkPalindrome(event);">
+            <label for="wordtxt">Enter a word or phrase:</label>
+            <input type="text" id="wordtxt" name="wordtxt"><br>
+            <input type="submit" value="Check Palindrome">
+        </form>
+        <div id="divResult"></div>
+            
+    </main>
+    <script src="Palindromes.js"></script>
+</body>
+</html>
