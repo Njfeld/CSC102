@@ -1,7 +1,7 @@
 /* declaration block: selector{ property:value;*/
 
 body{background-color: aquamarine;
-color: rgb(94, 61, 61);}
+color: rgb(3, 0, 0);}
 nav{height: 600px;
 width: 180px;
 float: left;
@@ -65,7 +65,7 @@ padding: auto;
     min-height: 100vh; 
 }
 #serverImage {
-    width: 400px;
+    width: 550px;
     position: absolute;
     left: 50%; /* Moves the left edge to the horizontal center */
     top: 35%;  /* Moves the top edge to the vertical center */
