@@ -56,3 +56,18 @@ padding: auto;
 
 
 }
+
+.server-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center; 
+    min-height: 100vh; 
+}
+#serverImage {
+    width: 400px;
+    position: absolute;
+    left: 50%; /* Moves the left edge to the horizontal center */
+    top: 35%;  /* Moves the top edge to the vertical center */
+    transform: translate(-50%, -50%);
+}
