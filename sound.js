@@ -15,6 +15,8 @@ function addSound() {
     // show play and pause buttons
     btnPlay.hidden = false;
     btnPause.hidden = false;
+    // hide add button
+    btnAdd.hidden = true;
 }
 
 function playSound() {
