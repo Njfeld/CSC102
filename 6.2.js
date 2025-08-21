@@ -18,7 +18,7 @@ function validateTask(taskName) {
     return true;
 }
 
-//Add Task and String Manipulation
+//Task and String Manipulation
 function addTask() {
     const taskInput = document.getElementById('taskInput');
     const taskName = taskInput.value;
