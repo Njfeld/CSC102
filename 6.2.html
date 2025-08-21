@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List Manager</h1>
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Enter a new task..." aria-label="New Task">
+            <!-- <label for="taskInput">New Task</label> -->
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <!-- Task List -->
+        <ul id="taskList">
+        </ul>
+        <div class="controls">
+            <!-- Button to clear completed tasks -->
+            <button onclick="clearCompleted()">Clear Completed</button>
+        </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="6.2.js"></script>
+</body>
+</html>
