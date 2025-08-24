@@ -9,9 +9,9 @@ let LastName = document. getElementById("txtLastName") .value;
 let ZipCode = document. getElementById("txtzip") .value;
 // create log
 
-console.log("firstName="+ FirstName);
-console.log("LastName="+ LastName);
-console.log("ZipCode="+ ZipCode);
+//console.log("firstName="+ FirstName);
+//console.log("LastName="+ LastName);
+//console.log("ZipCode="+ ZipCode);
 //  keeps from submit 
 // create a var to conbime first and last name 
 // debug space"""

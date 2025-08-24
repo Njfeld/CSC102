@@ -53,8 +53,8 @@ function randomNum(){
                //  change the position of the duck
                duckMeme.style.left= newLeft + "px";
                duckMeme.style.top = newTop + "px";
-               console.log("left="+ newLeft +"px");
-               console.log("top="+ newTop +"px");
+              // console.log("left="+ newLeft +"px");
+               // console.log("top="+ newTop +"px");
 
         }, 1000); // move every second
 
